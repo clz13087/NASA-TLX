@@ -31,4 +31,6 @@ if __name__ == '__main__':
 	# r_SE = SUBJECTIVEEVALUATION_manager.main()
 	# r_Q = r_tlx|r_MS|r_MD|r_SE
 	r_Q = r_tlx
+
+	# ---------- change where u save data ---------- #
 	write(os.path.join('data_NASA',''),r_Q)
