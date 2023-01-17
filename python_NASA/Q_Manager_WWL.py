@@ -33,4 +33,4 @@ if __name__ == '__main__':
 	r_Q = r_tlx
 
 	# ---------- change where u save data ---------- #
-	write(os.path.join('GraduationThesis',''),r_Q)
+	write(os.path.join('GraduationThesis/example',''),r_Q) # 実行ファイルと同じ階層にファイル作成，/でさらに下層に保存可能，例)GraduationThesis/example
