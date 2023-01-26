@@ -8,7 +8,7 @@ from NASA_TLX_WWL import TLX
 
 def initial_data_set():
 	name = input('名前を入力してください--> ')
-	job = input('操作人数は？\n1人->1\n2人(別々)->2\n2人(融合)-->3\n3人-->4\n')
+	job = input('操作人数は？\n1人->1\n2人-->2\n3人-->3\n')
 	# number = input('サイクル数を入力してください--> ')
 	return name, job
 
@@ -33,4 +33,4 @@ if __name__ == '__main__':
 	r_Q = r_tlx
 
 	# ---------- change where u save data ---------- #
-	write(os.path.join('GraduationThesis/example',''),r_Q) # 実行ファイルと同じ階層にファイル作成，/でさらに下層に保存可能，例)GraduationThesis/example
+	write(os.path.join('GraduationThesis/zikken',''),r_Q) # 実行ファイルと同じ階層にファイル作成，/でさらに下層に保存可能，例)GraduationThesis/example
