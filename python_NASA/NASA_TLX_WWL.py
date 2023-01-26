@@ -224,7 +224,7 @@ class TLX:
 		def end():
 			time.sleep(0.5)
 			self.root.destroy()
-
+ 
 		self.button_e.config(command=end)
 
 		self.l1.grid(column=0,columnspan=2,row=0)
