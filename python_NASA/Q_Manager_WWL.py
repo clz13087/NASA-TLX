@@ -34,3 +34,4 @@ if __name__ == '__main__':
 
 	# ---------- change where u save data ---------- #
 	write(os.path.join('GraduationThesis/zikken',''),r_Q) # 実行ファイルと同じ階層にファイル作成，/でさらに下層に保存可能，例)GraduationThesis/example
+	# write(os.path.join('/Users/sanolab/Desktop/NASA',''),r_Q) # 実行ファイルと同じ階層にファイル作成，/でさらに下層に保存可能，例)GraduationThesis/example
